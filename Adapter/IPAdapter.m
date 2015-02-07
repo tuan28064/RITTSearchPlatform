@@ -38,7 +38,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 30 + [IPCell heightForALLOC_DATELabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForCUSTOMERLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForDATA_FROMLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForIP_SECTLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForNet_NameLabel:[self.list objectAtIndex:indexPath.row]];
+    return 35 + [IPCell heightForALLOC_DATELabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForCUSTOMERLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForDATA_FROMLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForIP_SECTLabel:[self.list objectAtIndex:indexPath.row]] + [IPCell heightForNet_NameLabel:[self.list objectAtIndex:indexPath.row]];
 }
 
 
