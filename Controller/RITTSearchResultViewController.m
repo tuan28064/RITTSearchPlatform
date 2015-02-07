@@ -1,4 +1,4 @@
-//剪短发了开始到家乐福就说了句
+//
 //  RITTSearchResultViewController.m
 //  RITTSearchPlatform
 //

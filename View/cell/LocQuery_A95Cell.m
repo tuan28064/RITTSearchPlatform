@@ -162,8 +162,7 @@
 + (float)heightForNumberLabel:(RITT_C_CODE_Model *)ritt_c_code_model
 {
     CGSize size = [ritt_c_code_model.CODE sizeWithFont:[UIFont systemFontOfSize:16.0f] constrainedToSize:CGSizeMake(180, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
-//    return size.height;
-    return 18.0;
+    return size.height;
 }
 
 + (float)heightForNameLabel:(RITT_C_CODE_Model *)ritt_c_code_model
@@ -174,14 +173,13 @@
 
 + (float)heightForNumberLabelForDomain:(RITT_C_DOMAIN_Model *)ritt_c_domain_model
 {
-    CGSize size = [ritt_c_domain_model.DOMAIN_NAME sizeWithFont:[UIFont systemFontOfSize:16.0f] constrainedToSize:CGSizeMake(180, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
-//    return size.height;
-    return 18.0;
+    CGSize size = [ritt_c_domain_model.ID sizeWithFont:[UIFont systemFontOfSize:16.0f] constrainedToSize:CGSizeMake(180, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+    return size.height;
 }
 
 + (float)heightForNameLabelForDomain:(RITT_C_DOMAIN_Model *)ritt_c_domain_model
 {
-    CGSize size = [ritt_c_domain_model.REGISTRANT sizeWithFont:[UIFont systemFontOfSize:12.0f] constrainedToSize:CGSizeMake(180, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize size = [ritt_c_domain_model.DOMAIN_NAME sizeWithFont:[UIFont systemFontOfSize:12.0f] constrainedToSize:CGSizeMake(180, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
     return size.height;
 }
 /*

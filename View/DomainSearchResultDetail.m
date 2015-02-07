@@ -96,7 +96,7 @@
     
     NSString *dnsString = @"DNS服务器：";
     NSArray *dnsArray = [[content objectAtIndex:5]componentsSeparatedByString:@"|"];
-    for (int i = 0; i < [dnsArray count] - 1; i++) {
+    for (int i = 0; i < [dnsArray count]; i++) {
         NSString *string = [NSString stringWithFormat:@"%@", [dnsArray objectAtIndex:i]];
         if ([dnsArray count] > 1) {
             if (i == 0) {
@@ -105,7 +105,7 @@
             } else {
                 dnsString = [dnsString stringByAppendingString:@"                     "];
                 dnsString = [dnsString stringByAppendingString:string];
-                dnsString = [dnsString stringByAppendingString:@"\n"];
+//                dnsString = [dnsString stringByAppendingString:@"\n"];
             }
         } else if ([dnsArray count] == 1) {
             if (i == 0) {

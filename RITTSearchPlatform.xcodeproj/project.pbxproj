@@ -1086,6 +1086,7 @@
 				);
 				INFOPLIST_FILE = "RITTSearchPlatform/RITTSearchPlatform-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
