@@ -1,4 +1,4 @@
-//范德萨减肥了肯定就卡了发的
+//
 //  RITTSearchResultViewController.m
 //  RITTSearchPlatform
 //
